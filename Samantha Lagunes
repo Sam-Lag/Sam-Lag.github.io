@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="about-me">
+      <h1>Samantha Lagunes Basurto</h1>
+    </div>
+      <p>Snowmen</p>
+      <p>Assignment Date: June 26, 2024</span></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UFT-8">
+ <title>Puzzle</title>
+</head>
+<body>
+<center>
+<h3>Puzzle</h3>
+
+<table>
+  <tr>
+    <td><img id="puzzle2_K" src="puzzle2_K.jpg" onclick="seleccionar(0)"/></td>
+    <td><img id="puzzle2_M" src="puzzle2_M.jpg" onclick="seleccionar(1)"/></td>
+    <td><img id="puzzle2_E" src="puzzle2_E.jpg" onclick="seleccionar(2)"/></td>
+    <td><img id="puzzle2_G" src="puzzle2_G.jpg" onclick="seleccionar(3)"/></td>
+  </tr>
+   <tr> 
+    <td><img id="puzzle2_A" src="puzzle2_A.jpg" onclick="seleccionar(4)"/></td>
+    <td><img id="puzzle2_D" src="puzzle2_D.jpg" onclick="seleccionar(5)"/></td>
+    <td><img id="puzzle2_L" src="puzzle2_L.jpg" onclick="seleccionar(6)"/></td>
+    <td><img id="puzzle2_B" src="puzzle2_B.jpg" onclick="seleccionar(7)"/></td>
+
+  </tr> 
+  <tr>
+   
+    <td><img src="puzzle2_F.jpg" onclick="seleccionar(8)"/></td>
+    <td><img src="puzzle2_J.jpg" onclick="seleccionar(9)"/></td>
+    <td><img src="puzzle2_H.jpg" onclick="seleccionar(10)"/></td>
+    <td><img src="puzzle2_I.jpg" onclick="seleccionar(11)"/></td>
+  </tr>
+</table>
+</center>
+</body>
+</html>
