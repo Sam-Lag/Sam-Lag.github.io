@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UFT-8">
+ <title>Starter Gallery</title>
+</head>
+<body>
+<center>
+<h1>Starter Gallery</h1>
+<table>
+  <tr>
+    <td><img src="Photo1.jpg"/></td>
+  </tr>
+   <p>Photo number 1</p>
+   </table>
+   <table>
+   <tr>
+    <td><img src="Photo2.jpg"/></td>
+  </tr> 
+   <p>Photo number 2</p>
+  </table>
+  <table>
+  <tr>
+    <td><img src="Photo3.jpg"/></td>
+  </tr>
+   <p>Photo number 3</p>
+</table>
+</center>
+</body>
+</html>
