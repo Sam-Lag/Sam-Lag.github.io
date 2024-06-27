@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Scorecard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Baseball Scorecard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>R</th>
+                <th>H</th>
+                <th>E</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Home</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Away</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+/* Shared styles for all scorecards */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Specific styles for each game scorecard (optional) */
+.golf.table th:first-child,
+.golf.table td:first-child {
+    background-color: #ddd;
+}
+
+.baseball.table th:first-child {
+    width: 150px;
+}
+
+.boardgame.table th:last-child {
+    font-weight: bold;
+}
+
+/* Pseudo class example: highlighting the current round in the board game */
+.boardgame.table tbody tr.current-round td {
+    background-color: #FFFFE0;
+}
+
+</html>
