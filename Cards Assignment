@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Flashcards</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1.animated-title {
+      animation: title-appear 2s ease-in-out forwards;
+    }
+
+    @keyframes title-appear {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .flashcard {
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      padding: 15px;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .flashcard .question {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .flashcard .answer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      background-color: #ddd;
+      padding: 10px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .flashcard:hover .answer {
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="animated-title">Interactive Flashcards</h1>
+  <div class="container">
+    <div class="flashcard">
+      <div class="question">What is the capital of France?</div>
+      <div class="answer">Paris</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the largest planet in our solar system?</div>
+      <div class="answer">Jupiter</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the meaning of life?</div>
+      <div class="answer">That's a philosophical question! There's no single answer.</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the name of the tallest mountain in the world?</div>
+      <div class="answer">Mount Everest</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the chemical formula for water?</div>
+      <div class="answer">H2O</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">In what year did the first iPhone launch?</div>
+      <div class="answer">2007</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the capital of Australia?</div>
+      <div class="answer">Canberra</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the name of the largest ocean on Earth?</div>
+      <div class="answer">Pacific Ocean</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the scientific name for humans?</div>
+      <div class="answer">Homo sapiens</div>
+    </div>
+    <div class="flashcard">
+      <div class="question">What is the process of turning liquid water into vapor called?</div>
+      <div class="answer">Evaporation</div>
+    </div>
+  </div>
+</body>
+</html>
