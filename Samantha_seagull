@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    display: flex;
+    height: 550px;
+    background-image: linear-gradient(315deg, white, blue);
+  }
+  .image {
+    flex: 1; 
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+    -webkit-filter: contrast(150%);
+    filter: contrast(150%);
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="seagull.png">
+    </div>
+  </div>
+</body>
+</html>
