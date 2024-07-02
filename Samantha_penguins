@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .image {
+    overflow: hidden;
+    width: 450px;
+    height: 280px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 auto;
+    float: center;
+  }
+  img {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="penguins.jpg">
+    </div>
+  </div>
+</body>
+</html>
