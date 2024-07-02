@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    img {
+      -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+    }
+  </style>
+</head>
+<body>
+  <img src="dinosaur.png">
+</body>
+</html>
