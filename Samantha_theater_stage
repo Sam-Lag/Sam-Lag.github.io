@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-text {
+      position: relative;
+      text-align: center;
+    }
+    .text {
+      position: absolute; 
+      top: 30%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      color: white;
+      font-size: 40px; 
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-text">
+    <img src="theater_stage.jpg">
+    <p class="text">Presenting</p>
+  </div>
+</body>
+</html>
+
