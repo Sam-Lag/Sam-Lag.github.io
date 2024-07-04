@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embed a Service-Hosted Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Embedding a Service-Hosted Video</h1>
+  <section class="tutorial">
+    <h2>Steps</h2>
+    <ol>
+      <li>
+        <h3>Find the Embed Code</h3>
+        <p>Log in to your video hosting service and locate the "Share" or "Embed" option for your video. Click this to reveal the embed code.</p>
+        <img src="image1.png" alt="Finding embed code">
+      </li>
+      <li>
+        <h3>Copy the Embed Code</h3>
+        <p>Once you've found the code, copy the entire snippet to your clipboard.</p>
+        <img src="image2.png" alt="Copying embed code">
+      </li>
+      <li>
+        <h3>Paste the Embed Code</h3>
+        <p>In your website's HTML, paste the copied embed code where you want the video to appear.</p>
+        <img src="image3.png" alt="Pasting embed code in HTML">
+      </li>
+      <li>
+        <h3>Save and View</h3>
+        <p>Save the changes to your HTML, upload it to your website, and visit the page to see the embedded video!</p>
+        <img src="image4.png" alt="Viewing embedded video">
+      </li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <h2>Example Embedded Video</h2>
+    <p>https://youtu.be/7OYfV83Qa-s?feature=shared</p>
+  </section>
+
+</body>
+</html>
