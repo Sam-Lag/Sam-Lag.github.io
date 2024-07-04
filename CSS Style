@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tutorial {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.tutorial h2 {
+  margin-bottom: 1rem;
+}
+
+.tutorial ol {
+  padding-left: 2rem;
+}
+
+.tutorial li {
+  margin-bottom: 1rem;
+}
+
+.tutorial img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 0.5rem;
+}
+
+.example {
+  text-align: center;
+  margin-top: 2rem;
+}
