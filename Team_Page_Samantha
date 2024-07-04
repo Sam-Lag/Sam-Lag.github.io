@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Plantastic Pals</title>
+  <style>
+    /* Overall styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    /* Navigation section */
+    #navigation {
+      float: right; /* Float navigation to the right */
+      margin-bottom: 20px;
+    }
+
+    #navigation ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #navigation li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    #navigation a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Team member profiles */
+    .team-member {
+      margin-bottom: 40px;
+    }
+
+    .team-member img {
+      float: left; /* Float images to the left */
+      margin-right: 20px;
+      width: 200px; /* Adjust image width as needed */
+      border: 1px solid #ccc;
+    }
+
+    .team-member bio {
+      /* Use position: relative and absolute to position text relative to the image */
+      position: relative;
+    }
+
+    .team-member bio p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Plantastic Pals</h1>
+
+  <nav id="navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Plant Care Tips</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="team-members">
+    <h2>Meet Our Team</h2>
+
+    <div class="team-member">
+      <img src="imageteam1.jpg" alt="Philodendron Phil">  <div class="bio">
+        <h3>Philodendron Phil</h3>
+        <p>*Phil* is our resident philodendron expert...</p>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <img src="imageteam2.jpg" alt="Fern Frenzy">  <div class="bio">
+        <h3>Fern Frenzy</h3>
+        <p>*Frenzy* is our enthusiastic fern fanatic...</p>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <img src="imageteam3.jpg" alt="Sunny the Succulent">  <div class="bio">
+        <h3>Sunny the Succulent</h3>
+        <p>*Sunny* is our sunshine-loving succulent specialist...</p>
+      </div>
+    </div>
+
+    <div class="team-member">
+      <img src="imageteam4.jpg" alt="Captain Cactus">  <div class="bio">
+        <h3>Captain Cactus</h3>
+        <p>*Captain Cactus* is our prickly-but-charming cactus connoisseur...</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
