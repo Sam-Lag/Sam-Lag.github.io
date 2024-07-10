@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capricho's</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#">
+      <img src="logo.png" alt="Capricho's Logo">
+    </a>
+  </header>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capricho - Delicious Pastries & Baked Goods</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Capricho's</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+       <li><a href="#">History of baking</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h2>Welcome to Capricho's!</h2>
+      <p>We bake delicious pastries, cakes, and breads using fresh, high-quality ingredients.</p>
+      <img src="image1.jpg" alt="Bakery banner image">
+<video width="33" height="auto" controls>
+  <source src="video.mp3" type="video">
+</video>
+
+    </section>
+
+
+     <section class="History of baking">
+    <h2>A Brief History of Baking</h2>
+    <p>Baking is one of the oldest culinary practices, dating back thousands of years. Evidence suggests that Egyptians were using yeast to leaven bread as early as 2600 BC. Over time, baking traditions spread throughout Europe and Asia, with regional variations emerging.</p>
+    <p>The first bakers likely worked from home, selling their wares on the streets. Eventually, dedicated bakeries emerged, offering a wider variety of baked goods. Today, bakeries remain a beloved part of communities around the world, providing fresh bread, pastries, and other treats.</p>
+
+    <section class="menu">
+      <h2>Our Menu</h2>
+      <p>Welcome to Capricho's Cafeteria! We offer a variety of delicious and satisfying dishes to fuel your day. Take a look at our menu and find something that tempts your taste buds!</p>
+
+      <div class="menu-section">
+        <h3>Breakfast (served until 11:00 AM)</h3>
+        <ul>
+          <li class="menu-item">
+            <img src="image2.jpg" alt="Scrambled eggs with bacon and toast">
+            <p>Classic Scrambled Eggs with Bacon and Toast: Fluffy scrambled eggs served with crispy bacon and toasted bread.</p>
+          </li>
+          <li class="menu-item">
+            <img src="image3" alt="Fruit yogurt parfait">
+            <p>Fresh Fruit Yogurt Parfait: Layers of fresh seasonal fruit, creamy yogurt, and granola.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-section">
+        <h3>Lunch (served from 11:00 AM to 3:00 PM)</h3>
+        <ul>
+          <li class="menu-item">
+            <img src="image4.jpg" alt="Cheeseburger">
+           <p> Capricho's Signature Cheeseburger: A juicy beef burger topped with melted cheddar cheese, pineapple, onion rings, BBQ sauce, lettuce. Accompanied by   French fries.</p>
+          </li>
+        </ul>
+      </div>
+
+    <div class="menu-section">
+        <h3>Deserts</h3>
+        <ul>
+          <li class="menu-item">
+            <img src="image5.jpg" alt="Freshly Baked Croissants">
+            <p>Freshly Baked Croissants</p>
+          </li>
+          <li class="menu-item">
+            <img src="image6.jpg" alt="Cupcakes">
+            <p>Delectable Cupcakes of  Blueberry, Lemon and Amaranth, Chocolate Chips and Carrot</p>
+          </li>
+           <li class="menu-item">
+            <img src="image7.jpg" alt="Cupcakes">
+            <p>Delectable Cupcakes of  Blueberry, Lemon and Amaranth, Chocolate Chips and Carrot</p>
+          </li>
+           <li class="menu-item">
+            <img src="image8.jpg" alt="Artisanal Breads<">
+            <p>Artisan Breads</p>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="about-us">
+<h2>About Us</h2>
+
+<img src="image9.jpg" alt="founders">
+
+      <p>At Capricho's, we're more than just a bakery; we're a family dedicated to creating delicious and heartwarming treats. Our journey began with Linda and Tania, who have always held a deep passion for baking. Growing up, their [insert missing memory about baking]. This love for baking blossomed into a dream of sharing their creations with the world.</p>
+
+      <p>In 2014, Linda along with Tania, decided to turn their dream into reality. We opened the doors of Capricho's, a haven for those seeking fresh-baked goodness and a taste of home.</p>
+
+      <p>Our commitment to quality is unwavering. We use only the finest ingredients, from locally sourced flour and butter to seasonal fruits and decadent chocolates. We believe that fresh, high-quality ingredients are the foundation for truly exceptional baked goods.</p>
+
+      <p>But Capricho's is more than just ingredients. It's about the love and care poured into every pastry, cake, and loaf. Our team of passionate bakers, each with their own unique skills and creativity, are the heart of our bakery. They take pride in crafting each treat with meticulous attention to detail, ensuring every bite is a delightful experience.</p>
+
+      <p>We believe that baked goods have the power to bring people together. Whether it's a morning croissant enjoyed with a cup of coffee, a birthday cake shared with loved ones, or a slice of pie that evokes nostalgic memories, we hope our creations become a part of your special moments.</p>
+
+      <p>At Capricho's, we're not just baking treats; we're baking happiness. We invite you to visit us, experience the warmth of our bakery, and savor the taste of our passion in every bite.</p>
+    </section>
+     
+<section class="contact">
+      <h2>Contact Us</h2>
+
+<img src="image10.jpg" alt="direction">
+
+      <p>Av. Picadilly Circus, 7777902818, caprichosorder@capricho.com.</p>
+    </section>
+
+  </main>
+
+  <footer>
+<img src="logo.png" alt="Capricho's Logo">
+
+    <p>&copy; 2024 Capricho's - All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
