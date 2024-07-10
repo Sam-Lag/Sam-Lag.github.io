@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<img src="football_field.jpg" alt="Image description" height="340">
+<style>
+img { -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);border: 49px solid #000;
+border-image: url(tic-tac-toe.png) 49 repeat;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="image">
+</div>
+</body>
+<head>
+<style>img {-webkit-filter: grayscale(100%);filter: grayscale(100%);}</style>
+</head>
+</html>
